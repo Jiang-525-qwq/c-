@@ -1,0 +1,10 @@
+#include <stdio.h>
+main()
+{
+    double a;
+    float b;
+    printf("Please input fahr: ");
+    scanf("%lf",&a);
+    b=5.0*(a-32.0)/9.0;
+    printf("The cels is: %.2f",b);
+}
